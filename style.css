@@ -1,0 +1,40 @@
+#calculator {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: inline-block;
+    width: 288px;
+}
+
+input {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+
+#output {
+    color: white;
+    text-align: center;
+}
+
+.good {
+    background-color: green;
+}
+
+.bad {
+    background-color: red;
+}
