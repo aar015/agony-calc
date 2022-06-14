@@ -1,6 +1,7 @@
 #calculator {
     display: flex;
     flex-direction: column;
+    text-align: center;
     width: 350px;
     margin: 0;
     position: absolute;
@@ -17,18 +18,18 @@
 
 label {
     display: inline-block;
+    text-align: left;
     width: 288px;
 }
 
 input {
     display: inline-block;
+    text-align: right;
     width: 50px;
-    text-align: center;
 }
 
 #output {
     color: white;
-    text-align: center;
 }
 
 .good {

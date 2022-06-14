@@ -14,18 +14,23 @@
 </head>
 <body>
     <div id="calculator">
+        <h1>Agony Warlock Calculator</h1>
         <div id="form">
             <div id="inputs">
                 <div class="input-wrapper">
-                    <label for="life">Life Points</label>
+                    <label for="life">Opponent's Health Total</label>
                     <input type="number" id="life" value="30" min="1">
                 </div>
                 <div class="input-wrapper">
-                    <label for="card"># of Cards</label>
+                    <label for="weapon">Immovable Object Equipped</label>
+                    <input type="checkbox" id="weapon">
+                </div>
+                <div class="input-wrapper">
+                    <label for="card">Cards in Opponent's Deck</label>
                     <input type="number" id="card" value="0" min="0">
                 </div>
                 <div class="input-wrapper">
-                    <label for="card"># of Agonies</label>
+                    <label for="agony">Agonies in Opponent's Deck</label>
                     <input type="number" id="agony" value="12" min="1">
                 </div>
             </div>
