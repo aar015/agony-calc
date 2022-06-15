@@ -15,7 +15,10 @@ function calculate() {
         n = Math.ceil((Math.sqrt(1. + 8. * life) - 1.) / 2.)
     }
     const card = 1. * document.getElementById("card").value;
-    const agony = 1. * document.getElementById("agony").value;
+    let agony = 1. * document.getElementById("agony").value;
+    if (card == 0) {
+        agony++;
+    }
     let result = 10000.;
     if (agony < n) {
         result = 0;

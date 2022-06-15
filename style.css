@@ -49,11 +49,11 @@ button {
 
 .good {
     background-color: green;
-    box-shadow: 5px 5px 15px green;
+    box-shadow: 1px 1px 10px green;
 
 }
 
 .bad {
     background-color: red;
-    box-shadow: 5px 5px 15px red;
+    box-shadow: 1px 1px 10px red;
 }
